@@ -57,10 +57,10 @@ void loop() {
   myo2Value = analogRead(myoPin2);
 
   // print values to serial monitor
-  Serial.print("MYO 1: "); Serial.print(myo1Value); Serial.print(",");
-  Serial.print("MYO 2: "); Serial.print(myo2Value); Serial.print(",");
-  Serial.print("Threshold 1: "); Serial.print(threshold1); Serial.print(",");
-  Serial.print("Threshold 2: "); Serial.print(threshold2); Serial.println();
+  Serial.print("MYO_1:"); Serial.print(myo1Value); Serial.print(",");
+  Serial.print("MYO_2:"); Serial.print(myo2Value); Serial.print(",");
+  Serial.print("Threshold_1:"); Serial.print(threshold1); Serial.print(",");
+  Serial.print("Threshold_2:"); Serial.println(threshold2);
 
   // read Myo Sensor 1 and adjust Servo 1:
 
