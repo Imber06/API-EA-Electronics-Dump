@@ -35,8 +35,8 @@ int myo2Value; // stores analogRead() value of Myo Sensor 2
 bool trigger2 = false; // is input > threshold?
 bool lastTrigger2 = false; // was the last input > threshold?
 int s2pos1 = 0; // first position of servo 2
-int s2pos2 = 90; // second position of servo 2
-int s2pos3 = 180; // third position of servo 2
+int s2pos2 = 60; // second position of servo 2
+int s2pos3 = 120; // third position of servo 2
 int s2lastPos = 1; // stores int value for servo pos
 
 void setup() {
