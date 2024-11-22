@@ -2,7 +2,9 @@ int value;
 int static_variable = 500;
 
 void setup() {
+  
   Serial.begin(9600);
+  
 }
 
 void loop() {
