@@ -1,3 +1,7 @@
+/*
+  This is the code for testing the EMGs.
+*/
+
 int value;
 int static_variable = 500;
 
