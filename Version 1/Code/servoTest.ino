@@ -11,7 +11,6 @@ Servo myservo1; // servo 1
 const int servoPin1 = 8; // pin for output to servo 1
 int s1pos1 = 0; // first position of servo 1
 int s1pos2 = 120; // second position of servo 1
-int s1lastPos = 1; // stores the previous position of servo 1
 
 Servo myservo2; // servo 2
 const int servoPin2 = 9; // pin for output to servo 2
