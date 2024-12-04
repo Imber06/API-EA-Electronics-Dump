@@ -11,7 +11,7 @@
 | 9V Rechargable Battery | 1x | $19.99 | [Microcontroller Battery](https://a.co/d/dlQaHtz) |
 | 7.2V NiMH Battery | 1x | $14.99 | [Servo battery](https://a.co/d/7g7slMD) |
 
-Total Cost: $155.68
+### Total Cost: $155.68
 
 
 # Electronics BOM No Wrist Flexion
@@ -27,4 +27,4 @@ Total Cost: $155.68
 | 9V Rechargable Battery | 1x | $19.99 | [Microcontroller Battery](https://a.co/d/dlQaHtz) |
 | 7.2V NiMH Battery | 1x | $14.99 | [Servo battery](https://a.co/d/7g7slMD) |
 
-Total Cost: $111.50
+### Total Cost: $111.50
