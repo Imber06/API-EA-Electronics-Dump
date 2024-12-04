@@ -1,4 +1,4 @@
-### Design Stages:
+### Design Stages
 
 1. Clarify goal by specifying tasks that we want the prosthetic to perform
 
