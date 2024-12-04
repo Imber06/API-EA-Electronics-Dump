@@ -11,4 +11,4 @@
 | 9V Rechargable Battery | 1x | $19.99 | [Microcontroller Battery](https://a.co/d/dlQaHtz) |
 | 7.2V NiMH Battery | 1x | $14.99 | [Servo battery](https://a.co/d/7g7slMD) |
 
-Total Cost: $0.00
+Total Cost: $155.68
