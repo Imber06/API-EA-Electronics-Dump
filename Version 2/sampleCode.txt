@@ -1,13 +1,10 @@
 This code serves as a sample of how our arm might operate.
 This is pseudocode similar to the structure of an ino file.
 We're hoping to control the arm with this code via an Arduino 
-or a similar device.
-
-This is where the variables for our EMG, button, and servos 
-will go. Our current idea incorporates 5 servos, 1 to 2 EMGs,
-and at least 1 button. We're going to use macros to give the user
-different options with their hand. These will be manually toggled
-with the button. Each macro will have an associated function.
+or a similar device. It uses a system of macros to provide different
+functions using only 2 EMG inputs. Some examples of potential macros
+include one that pinches the index and thumb, or one that clenches
+the entire hand, etc. This code allows for as many macros as needed.
 
 The code will execute in the following way:
 
@@ -15,11 +12,17 @@ The code will execute in the following way:
 > Each servo will be initilized, and then output/input 
   pins for each device (ex. servos, EMGs, buttons, etc) will be set.
 > Additional variables will be created to track the selected macro,
-  the position of each finger, the value of the EMG(s), and
-  the specified EMG thresholds needed to trigger a servo.
+  the position of each finger, the value of the EMG(s), and whether
+  or not the macro button is currently pressed.
 > The setup() function will assign each servo its output pin
   and default position.
 > The loop() function will first determine if our macro button
   has been pressed and released. If so, it will switch the selected 
   macro.
-> The loop() function will then 
+> The loop() function will then determine the values of the EMG
+  inputs and set their variables to match.
+> The loop() function will then run a switch statement that uses
+  the stored macro value as its input. This switch statement will
+  trigger associated macro functions.
+> The selected macro function will execute, then the loop() function
+  will reset after a delay.
