@@ -13,7 +13,7 @@ the entire hand, etc. This code allows for as many macros as needed.
 The code will execute in the following way:
 
 > Once the user inserts the battery, the script begins.
-> Each servo will be initilized, and then output/input 
+> Each servo will be initialized, and then output/input 
   pins for each device (ex. servos, EMGs, buttons, etc) will be set.
 > Additional variables will be created to track the selected macro,
   the position of each finger, the value of the EMG(s), whether
