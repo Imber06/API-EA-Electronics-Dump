@@ -16,8 +16,11 @@ The code will execute in the following way:
 > Each servo will be initilized, and then output/input 
   pins for each device (ex. servos, EMGs, buttons, etc) will be set.
 > Additional variables will be created to track the selected macro,
-  the position of each finger, the value of the EMG(s), and whether
-  or not the macro button is currently pressed.
+  the position of each finger, the value of the EMG(s), whether
+  or not the macro button is currently pressed, and whether or
+  not the macro button was pressed in the last run of the loop()
+  function (these last 2 are needed to check if the button was
+  pressed and released).
 > The setup() function will assign each servo its output pin
   and default position.
 > The loop() function will first determine if our macro button
