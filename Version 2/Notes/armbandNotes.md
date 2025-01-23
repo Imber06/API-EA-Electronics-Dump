@@ -9,3 +9,4 @@
 - What to use for the electrodes: https://www.quora.com/What-kind-of-EMG-electrodes-does-the-Myo-armband-use-and-where-can-I-buy-them
 - Open sources designs, including Myo-like EMG: https://charleslabs.fr/en/index
 - uMyo open source dry electrode design: https://udevices.io/products/umyo-wearable-emg-sensor
+- Simple dry electrode design (might not work): https://www.instructables.com/Simple-Dry-Electrode-EMG-for-Arduino/
